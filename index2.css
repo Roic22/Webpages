@@ -10,7 +10,7 @@ body{
 div.container{
     display: inline-flex;
     background-color: red;
-    width: 1200px;
+    width: 100%;
 }
 div.navcontainer{
     width: 100%;
