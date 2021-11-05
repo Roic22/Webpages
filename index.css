@@ -1,0 +1,22 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.man{
+    display: inline-block;
+    border: solid 2px;
+    color: blue;
+    border-radius: 5px;
+}
+.man:hover{
+    color: red;
+    border: solid 2px;
+    border-radius: 0%;
+}
+hr{
+    height: 8px;
+    background-color: black;
+}
+a:hover{
+    color:red;
+}

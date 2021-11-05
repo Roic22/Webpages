@@ -1,0 +1,65 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-size: contain;
+    padding: 0px;
+
+    box-sizing: border-box;
+    max-height: 100%;
+    
+    max-width: 100%;
+        margin: 0 auto;
+      
+}
+
+.farbe{
+    text-align: center;
+    border-style: none;
+    background-color:grey;
+    color:white;
+    margin: 0;
+}
+
+
+
+.mag::after{
+    content: "👨‍🎓"
+}
+
+h2{
+    font-family:  'Roboto', sans-serif;
+    
+}
+
+h3{
+    font-family:  'Azeret Mono', monospace;
+}
+
+main {
+    max-width: auto;
+    margin: 0 auto;
+  }
+
+
+  header{
+
+    
+        width: auto;
+        margin: 0 auto;
+      
+  }
+
+  img{
+      margin: 0% ;
+  }
+  .mam{
+      display: flex;
+      float: right;
+  }
+  h1{
+      display: inline-block; 
+      color: white; 
+      align-items: center;
+  }

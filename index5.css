@@ -1,0 +1,227 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.nav-container{
+    display: inline-flex;
+    
+    
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.erste-liste{
+    display: inline-flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+li{
+    margin: 0 10px 0 10px;
+    
+    list-style: none;
+}
+
+a{
+    color: black;
+    
+    text-decoration: none;
+}
+
+
+a:hover{
+    
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+
+
+.TA-Logo{
+    width: 130px;
+    margin-top: 5px;
+    margin-right: 150px;
+    
+   
+}
+
+.englisch_logo{
+    height: fit-content;
+}
+
+
+.banner-row{
+    display: flex;
+    background-color: lightblue ;
+    
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+
+.col-2{
+  padding: .55rem .85rem .55rem .85rem;
+
+}
+
+.modifier{
+    margin: left 16px; ;
+  
+}
+
+.section-bild{
+    width: 130px;
+    height: auto;
+    
+}
+.titel-1{
+    color: maroon;
+    text-decoration: maroon;
+}
+
+.rendre_rouge{
+    border: 2px solid maroon;
+    border-radius: 10px;
+    width: fit-content;
+    align-content: center;
+    padding: .08rem 1rem  .08rem 1rem; 
+    color: maroon;   
+
+}
+
+
+.rendre_rouge:hover{
+    border: 2px solid maroon;
+    border-radius: 0%;
+    
+   
+}
+
+#grey{
+    color: grey;
+    
+    }
+    
+
+
+.niveau2{
+    display: flex;
+    
+    
+}
+
+.petit{
+    width: 100%;
+    height: auto;
+}
+
+.col-4{
+    width: 24%;
+    margin: 10px 
+}
+
+
+
+.troisieme{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    height: 400px;
+    margin: 10px;
+    letter-spacing: 3px;
+    align-items: center;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.block{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 0.55rem 0.85rem 0.55rem 0.85rem;
+    width: 500px;
+}
+
+
+
+.quatrieme{
+    display: flex;
+}
+
+hr{
+    height: 8px;  
+    background-color: black;
+}
+
+
+
+
+.footer{
+    display: flex;
+    align-content: center;
+    text-align: left;
+}
+
+.col-3{
+    width: 33.33%;
+    
+    
+    margin: 100px 0 0 10px;
+    
+
+}
+
+.couleur_rouge{
+    color: red;
+}
+
+
+
+
+
+.fa {
+    
+    font-size: 0px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black !important;
+    
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .mam{
+    display: flex;
+    float: right;
+}
+  
+  

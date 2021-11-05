@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Information and Age verification --> 
+    <script>
+        let Name = prompt("please enter your Name")
+        let Surname = prompt("please enter your Surname")
+        let Age = prompt("please enter your age")
+        if (Age < 18){
+            alert("you are normally not qualified to view the content of this page")
+        }
+        else {
+            alert("welcone to my page dear" + " " + Name + " " + Surname+ " and please i hope you don't get disappointed");
+        }
+        document.write("Welcome " + Name + " "+ Surname)
+    </script>
+   <br>
+   <br> 
+    <a href="index2.html"><h1><marquee>Please do click here to access the main page</marquee></h1></a>
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+</body>
+</html>
